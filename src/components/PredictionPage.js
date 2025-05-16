@@ -589,7 +589,7 @@ const PredictionPage = () => {
                 </div>
                 <div className="result-content">
                   <p className="result-label">Time Slot</p>
-                  <p className="result-value">{prediction.time_slot}</p>
+                  <p className="result-value">{prediction.hour}:00 </p>
                 </div>
               </div>
             )}
