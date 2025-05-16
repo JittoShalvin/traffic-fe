@@ -15,10 +15,10 @@ const Footer = () => {
             <div className="footer-links-column">
               <h4>Connect</h4>
               <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="https://traffic-livid.vercel.app/">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/jitto-shalvin">LinkedIn</a></li>
+                <li><a href="https://github.com/JittoShalvin">GitHub</a></li>
+                <li><a href="https://www.instagram.com/jittoshalvin/">Instagram</a></li>
               </ul>
             </div>
           </div>
