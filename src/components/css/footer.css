@@ -1,0 +1,146 @@
+/* Footer Styles */
+.footer {
+  background-color: #0d1936;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 2rem 2rem 2rem; /* Reduced top padding to remove gap */
+  margin-top: 0; /* Removed top margin to eliminate gap */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 250px;
+}
+
+.footer-logo h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.logo-highlight {
+  color: #4F94FF;
+}
+
+.footer-tagline {
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.footer-map-container {
+  flex: 1;
+  min-width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+
+.footer-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.footer-links-column h4 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+.footer-links-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-column ul li {
+  margin-bottom: 0.7rem;
+}
+
+.footer-links-column ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.footer-links-column ul li a:hover {
+  color: #4F94FF;
+  transform: translateX(3px);
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-legal a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-legal a:hover {
+  color: #4F94FF;
+}
+
+/* Responsive adjustments for footer */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-logo-section {
+    width: 100%;
+  }
+  
+  .footer-map-container {
+    width: 100%;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .footer-legal {
+    justify-content: center;
+  }
+}
